@@ -1,0 +1,165 @@
+
+@media screen and(min-width: 1280px){
+    .container{
+        width: 1280px;
+    }
+}
+
+body{
+    background: rgba(27, 27, 27, 0.86);
+}
+.logo{
+	text-align:center;
+	font-size: 22px
+}
+.logo a{
+    color:  #6ae370;
+}
+
+.nav{
+    background-color: #222222;
+   /* border-bottom: 1px solid #cccccc;*/
+}
+
+
+.dropdown-menu{
+    background: #222222;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.dropdown-menu li a{
+    color: white;
+}
+
+
+
+.left{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.nav a{
+    color: #666666;
+    text-decoration: none;
+
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.nav a:hover{
+    background-color: #3B3B3B;
+    text-decoration: none;
+    color: #6ae370;
+}
+
+.nav a:before{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+
+.nav-item a:focus{
+    background: white;
+}
+
+
+/*当进入小屏幕或超小屏幕时 我们nav里面的li浮动起来   */
+@media(max-width: 990px){
+    .nav li {
+        float: left;
+        width: 33.33%;
+    }
+
+    .serach button{
+        margin-top: 10px;
+        float: right;
+    }
+    .serach input{
+        width: 50%;
+        float: right;
+        margin-top: 10px;
+        margin-left: 6px;
+    }
+}
+/*当进入小屏幕或超小屏幕时 让文字变小  */
+@media(max-width: 780px){
+    .nav li a{
+        font-size: 14px;
+    }
+}
+
+/*当进入更小屏幕时   */
+@media(max-width: 500px){
+    .nav li a{
+        font-size: 12px;
+    }
+    .nav a:before{
+        vertical-align: middle;
+    }
+}
+
+
+
+
+.form{
+    border-top: 3px solid #ec9117;
+    padding: 6px;
+}
+
+.form img{
+	 cursor: pointer;  
+     transition: all 0.3s; 
+}
+.form img:hover{
+     transform: scale(2);  
+     border-radius:1px;
+}
+
+.table-dark{
+    color: white;
+}
+
+.special_UN{
+	color:#418fde;
+	font-weight:bold;
+}
+
+
+.serach{
+    text-align: right;
+}
+
+
+.add_country{
+	margin-top:-10px;
+	margin-bottom:5px;
+	
+}
+.add_country a{
+	color:#3b3b3b;
+	text-decoration:none;
+}
+.add_country button:hover{
+	background:#74acdf;
+}
+
+
+.page{
+	text-align:center;
+}
+
+.page nav ul li .page-link{
+	background:#3b3b3b;
+	color:#ffffff;
+	 border: 2px solid #cecece;
+}
+.page nav ul li .page-link:hover{
+	background:#dbdbdb;
+	color:#337ab7;
+}
+

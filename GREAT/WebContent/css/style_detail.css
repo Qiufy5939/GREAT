@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@media screen and(min-width: 1280px){
+    .container{
+        width: 1280px;
+    }
+}
+
+body{
+    background: rgba(27, 27, 27, 0.86);
+}
+.logo a{
+    color: #ec971f;
+}
+
+.nav{
+    background-color: #222222;
+   /* border-bottom: 1px solid #cccccc;*/
+}
+
+
+.dropdown-menu{
+    background: #222222;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.dropdown-menu li a{
+    color: white;
+}
+
+
+.container li{
+	list-style:none;
+	color:#ffffff;
+	font-size:20px;
+}
+
+.title{
+	margin-top:30px;
+	text-align:center;
+	color:#ffffff;
+}
+
+.detail{
+	margin-top:20px;
+	color:#000000;
+}
+
+.detail input{
+	background:#3b3b3b;
+	border-radius:5px;
+	border:1px solid #3b3b3b;
+}
+.detail input:hover{
+	border-radius:5px;
+	border:1px solid #ff874d;
+}
+.detail input:focus{
+	border-radius:5px;
+	border:1px solid #00ff00;
+}
+.detail textarea{
+	background:#3b3b3b;
+	border-radius:5px;
+	border:1px solid #3b3b3b;
+	width:600px;
+	height:280px; 
+}
+.detail textarea:hover{
+	border-radius:5px;
+	border:1px solid #ff874d;
+}
+.detail textarea:focus{
+	border-radius:5px;
+	border:1px solid #00ff00;
+}
+
+@media(max-width: 700px){
+    .detail textarea{
+	width:350px;
+	height:200px;
+}
+}
+
+
+
+.twobutton{
+	margin-top:100px;
+	text-align:center;
+}

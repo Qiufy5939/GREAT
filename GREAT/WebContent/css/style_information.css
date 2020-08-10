@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@media screen and(min-width: 1280px){
+    .container{
+        width: 1280px;
+    }
+}
+
+body{
+    background: rgba(27, 27, 27, 0.86);
+}
+.logo a{
+    color: #ec971f;
+}
+
+.nav{
+    background-color: #222222;
+   /* border-bottom: 1px solid #cccccc;*/
+}
+
+
+.dropdown-menu{
+    background: #222222;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.dropdown-menu li a{
+    color: white;
+}
+
+
+.title1{
+	text-align:center;
+	margin-top:50px;
+}
+.title1 h2{
+	color:#ffffff;
+}
+
+.title2{
+	text-align:center;
+	margin-top:100px;
+}
+.title2 h2{
+	color:#ffffff;
+}
+
+
+
+.form{
+    border-top: 3px solid #ec9117;
+    padding: 6px;
+    margin-top:20px;
+}
+
+.table-dark{
+    color: white;
+}
+
+.form .status1{
+	color:#d9534f;
+}
+
+.form .status2{
+	color:#5cb85c;
+}
+.form .status3{
+	color:#5bc0de;
+}
+.form .status4{
+	color:#ff8000;
+}
